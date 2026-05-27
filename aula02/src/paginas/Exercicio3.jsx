@@ -1,17 +1,12 @@
-export default function Exercicio3(nota1, nota2)
+export default function Exercicio3(nota1, nota2, media)
 {
-    let média = Number(nota1 + nota2) / 2;
+    let media = Number(nota1 + nota2) / 2;
     
     return (
         <div>
             Nota 1 :{nota1}
             Nota2 : {nota2}
-            Média : {média}.
-        </div>
-    )
-    return (
-        <div>
-            
+            Média : {media}.
         </div>
     )
 }
